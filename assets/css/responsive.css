@@ -1,0 +1,199 @@
+/* 
+@media only screen and (min-width: 1200px){
+	.container {
+		width: 1200px;
+	}
+
+} */
+@media only screen and (max-width: 1400px) {
+	.hero_left .title h2 { 
+		font-size: 65px;
+	}
+}
+@media only screen and (max-width: 1200px) {
+	.slider_controlar i.prev::after { 
+		width: 150px; 
+	}
+	.slider_controlar i.next::after { 
+		width: 150px; 
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1400px) {
+	 
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) { 
+	.header-horizontal-menu .menu-content li a {
+		padding: 0 10px;
+		font-weight: 400;
+		font-size: 16px;
+	} 
+}
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+	.slider_controlar i.prev::after { 
+		width: 100px; 
+	}
+	.slider_controlar i.next::after { 
+		width: 100px; 
+	}
+}
+
+
+@media all and (max-width:991px) {
+	.header-bottom {
+		padding: 10px 0;
+	}
+	.mobile-logo a img {
+		width: 100px;
+		margin: 0 auto;
+		display: flex;
+		padding: 10px;
+	} 
+	.cta_button {
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	.portfolio-navigation .nav_section ul li a { 
+		padding: 10px 12px; 
+	}
+	.contact-data .contact-info {
+		width: 60%; 
+		margin: auto;
+	}
+	.contact-form form { 
+		width: 70%;
+		margin: auto;
+	}
+	 
+}
+
+
+
+@media (max-width: 767px) {
+	.hero_left .title h2 {
+		font-size: 50px;
+	}
+	h2 {
+		font-size: 30px;
+	}
+
+	.pt-20 {
+		padding-top: 10px;
+	} 
+	.slider_controlar { 
+		margin-bottom: 20px;
+	}
+	.contact-data .contact-info {
+		width: 80%; 
+		margin: auto;
+	}
+	.contact-form form { 
+		width: 80%;
+		margin: auto;
+	}
+	.footer_section .widget_title {
+		font-size: 20px; 
+		margin-bottom: 25px;
+		margin-top: 30px;
+	}
+	.footer-widget-1 p { 
+		margin: 32px 0px 32px 0;
+	}
+	.footer_section { 
+		padding: 100px 0 30px; 
+	}
+	 
+}
+ 
+
+@media all and (max-width:575px) {
+	.hero_contnet {
+		padding: 70px 0;
+	}
+	.service-section {
+		padding: 35px 0; 
+	}
+	.slider_controlar i.prev::after { 
+		width: 100px; 
+	}
+	.slider_controlar i.next::after { 
+		width: 100px; 
+	}
+	.client-review { 
+		padding: 40px 0; 
+	}
+	.section-header .title { 
+		margin-top: 20px;
+	}
+	.section-header { 
+		margin-bottom: 30px;
+	}
+	.section-header .title { 
+		margin-top: 32px;
+	}
+	.portfolio-section { 
+		padding: 40px 0; 
+	}
+	.portfolio-gallery .gallery_btn a { 
+		padding: 11.5px; 
+		margin-top: 35px; 
+	}
+	.portfolio-navigation .nav_section ul li {
+		margin: 6px; 
+	}
+}
+@media all and (max-width:520px) {
+	.hero_left .title h2 {
+		font-size: 35px;
+	}
+	.hero_left .title img {
+		width: 50px;
+		height: 50px; 
+	}
+	.hero_left {
+		text-align: center;
+	}
+	.hero_left .title { 
+		justify-content: center;
+	}
+	.contact-data .contact-info {
+		width: 100%; 
+		margin: auto;
+	}
+	.contact-form form { 
+		width: 100%;
+		margin: auto;
+	}
+	 
+}
+
+@media all and (max-width:490px) {
+ 
+	.mobile-logo a img {
+		width: 120px;
+	}
+
+	.mobile-logo a img {
+		width: 83px;
+		margin: 0 auto;
+		display: flex;
+		padding: 10px;
+	}
+	.hero_left .title h2 {
+		font-size: 30px;
+	}
+	.hero_left .title img {
+		width: 40px;
+		height: 40px;
+		margin: 0 10px;
+	}
+	.hero_contnet {
+		padding: 60px 0;
+	}
+	.hero_left .cta_button a { 
+		padding: 11.5px; 
+	}
+
+	 
+}
